@@ -6,7 +6,7 @@ import {
   FaWhatsapp,
   FaDiscord,
 } from "react-icons/fa";
-import { SiArattai } from "react-icons/si"; 
+// import { SiArattai } from "react-icons/si"; 
 
 
 export default function Contact() {
