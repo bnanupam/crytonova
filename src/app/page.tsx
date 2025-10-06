@@ -18,7 +18,7 @@ export default function Home() {
   </div>
 </section>
 
-<h2 className="text-3xl font-semibold text-gray-800 mb-4">Our Services</h2>
+{/* <h2 className="text-3xl font-semibold text-gray-800 mb-4">Our Services</h2>
 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-700">
   <li className="bg-white p-6 rounded shadow hover:shadow-lg transition">
     <h3 className="text-xl font-bold mb-2">VAPT & Ethical Hacking</h3>
@@ -36,7 +36,7 @@ export default function Home() {
     <h3 className="text-xl font-bold mb-2">Training & Awareness</h3>
     <p>Empower your team with cybersecurity workshops, phishing simulations, and best practices.</p>
   </li>
-</ul>
+</ul> */}
 <ul className="space-y-4 text-gray-700 mt-8">
   <li>✅ Trusted by startups, enterprises, and government agencies</li>
   <li>✅ 24/7 incident response and support</li>
