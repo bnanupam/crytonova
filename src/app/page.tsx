@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Header from "./components/Header";
-import AboutUs from "./pages/aboutus";
+import AboutUs from "./about/page";
 const links = [
   { href: "/", label: "Cyber Security", icon: "/file.svg" },
   { href: "/", label: "Our Services", icon: "/window.svg" },
@@ -9,7 +9,6 @@ export default function Home() {
   return (
   
      <div className="min-h-screen font-sans grid grid-rows-[auto_1fr_auto] gap-16 p-8 sm:p-20">
-      <Header />
       <main className="row-start-2 flex flex-col gap-8 items-center sm:items-start">
         <AboutUs />
       </main>
