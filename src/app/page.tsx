@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import AboutUs from "./pages/aboutus";
 const links = [
   { href: "/", label: "Cyber Security", icon: "/file.svg" },
-  // { href: "/", label: "Our Services", icon: "/window.svg" },
+  { href: "/", label: "Our Services", icon: "/window.svg" },
 ];
 export default function Home() {
   return (
