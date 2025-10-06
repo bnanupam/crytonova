@@ -2,9 +2,16 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { useRouter } from "next/navigation";
 
 export default function MobileDrawer() {
+  const router = useRouter();
   const [open, setOpen] = useState(false);
+const handleNavClick = (href: string) => {
+  setOpen(false); // close drawer
+  router.push(href);  // navigate
+};
+
 
   return (
     <>
@@ -37,10 +44,10 @@ export default function MobileDrawer() {
 
         {/* Navigation */}
         <nav className="flex flex-col px-6 py-6 space-y-6 text-lg">
-          <Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link>
-          <Link href="/about" className="text-gray-700 hover:text-blue-600">About</Link>
-          <Link href="/services" className="text-gray-700 hover:text-blue-600">Services</Link>
-          <Link href="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
+          <Link href="/" onClick={() => handleNavClick("/")} className="text-gray-700 hover:text-blue-600">Home</Link>
+          <Link href="/about" onClick={() => handleNavClick("/about")} className="text-gray-700 hover:text-blue-600">About</Link>
+          <Link href="/services" onClick={() => handleNavClick("/services")} className="text-gray-700 hover:text-blue-600">Services</Link>
+          <Link href="/contact" onClick={() => handleNavClick("/contact")} className="text-gray-700 hover:text-blue-600">Contact</Link>
           {/* Add more links or content here to test scrolling */}
         </nav>
       </div>

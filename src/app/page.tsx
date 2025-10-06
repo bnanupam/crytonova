@@ -7,12 +7,14 @@ export default function Home() {
   
      <div className="min-h-screen font-sans grid grid-rows-[auto_1fr_auto] gap-2 p-8 sm:p-20">
       <main className="row-start-2 flex flex-col gap-8 items-center sm:items-start">
- <section className="w-full flex items-center justify-center animate-gradient text-white px-6 py-16">
-
-  <div className=" mx-auto text-center">
-    <h1 className="text-5xl font-bold mb-4">Cybersecurity That Powers Confidence</h1>
+ <section className="w-full flex items-center justify-center bg-gradient-to-br from-indigo-900 via-purple-800 to-pink-700 px-6 py-8 text-white">
+  <div className="text-center">
+     <h1 className="text-5xl font-bold mb-4">Cybersecurity That Powers Confidence</h1>
     <p className="text-xl mb-6">Protect your business with AI-driven security and ethical hacking.</p>
-    <a href="/contact" className="bg-white text-blue-600 px-6 py-3 rounded hover:bg-gray-100 transition">
+    <a
+      href="/contact"
+      className="inline-block bg-white text-indigo-700 font-semibold px-8 py-3 rounded-full shadow hover:bg-gray-100 transition"
+    >
       Get Started
     </a>
   </div>
