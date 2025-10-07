@@ -80,8 +80,11 @@ export default function Contact() {
       </a>
     </li>
     <li className="flex items-center space-x-2">
-       {/* <SiArattai className="text-purple-600 h-5 w-5" /> */}
-  <a href="https://arattai.app/cryptonova" className="text-blue-600 hover:underline">
+        <span className="text-indigo-600 arattai h-5 w-5">
+          <a href="https://web.arattai.in/@arattai" target="_blank" aria-label="Check us out on Arattai - opens in a new tab" rel="noopener"></a>
+        </span>
+       
+  <a href="https://web.arattai.in/@arattai" className="text-blue-600 hover:underline">
     Arattai
   </a>
     </li>

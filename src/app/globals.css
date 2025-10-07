@@ -14,3 +14,15 @@
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
 }
+
+.arattai a {
+  background: url("/arattai.svg") no-repeat 0 0 / 20px auto;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+/* .arattai a:hover {
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(222, 184, 135, 0.3);
+} */
