@@ -6,14 +6,14 @@ export default function Home() {
   return (
 
     <main className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100 px-6 py-16">
-     <section className="w-full flex items-center justify-center bg-gradient-to-br from-indigo-900 via-purple-800 to-pink-700 px-6 py-8 text-white">
-  <div className="text-center">
-    <h1 className="text-3xl sm:text-5xl font-bold mb-6 drop-shadow-lg">Cybersecurity That Powers Confidence</h1>
-           <p className="text-lg sm:text-xl mb-12 text-purple-100">Protect your business with AI-driven security and ethical hacking.</p>
+      <section className="w-full flex items-center justify-center bg-gradient-to-br from-indigo-900 via-purple-800 to-pink-700 px-6 py-8 text-white">
+        <div className="text-center">
+          <h1 className="text-3xl sm:text-5xl font-bold mb-6 drop-shadow-lg">Cybersecurity That Powers Confidence</h1>
+          <p className="text-lg sm:text-xl mb-12 text-purple-100">Protect your business with AI-driven security and ethical hacking.</p>
           <a
             href="/contact"
-             className="inline-block bg-white text-indigo-700 font-semibold px-8 py-3 rounded-full shadow hover:bg-gray-100 transition"
-    >
+            className="inline-block bg-white text-indigo-700 font-semibold px-8 py-3 rounded-full shadow hover:bg-gray-100 transition"
+          >
             Get Started
           </a>
         </div>
