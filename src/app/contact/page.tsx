@@ -32,7 +32,7 @@ export default function Contact() {
             <PhoneIcon className="h-6 w-6 text-blue-600 mt-1" />
             <div>
               <h3 className="text-lg font-semibold text-gray-800">Phone</h3>
-              <a href="tel:+1234567890" className="text-blue-600 hover:underline">+91-412-7187</a>
+              <a href="tel:+1234567890" className="text-blue-600 hover:underline">+91-8939681623</a>
             </div>
           </div>
 
