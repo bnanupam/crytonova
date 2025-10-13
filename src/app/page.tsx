@@ -1,3 +1,5 @@
+import Services from "./services/page";
+
 const links = [
   { href: "/", label: "Cyber Security", icon: "/file.svg" },
   { href: "/", label: "Our Services", icon: "/window.svg" },
@@ -18,7 +20,7 @@ export default function Home() {
           </a>
         </div>
       </section>
-
+      <Services />
       {/* <h2 className="text-3xl font-semibold text-gray-800 mb-4">Our Services</h2>
 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-700">
   <li className="bg-white p-6 rounded shadow hover:shadow-lg transition">
@@ -38,15 +40,15 @@ export default function Home() {
     <p>Empower your team with cybersecurity workshops, phishing simulations, and best practices.</p>
   </li>
 </ul> */}
-      <ul className="space-y-4 text-gray-700 mt-8">
+      {/* <ul className="space-y-4 text-gray-700 mt-8">
         <li>✅ Trusted by startups, enterprises, and government agencies</li>
         <li>✅ 24/7 incident response and support</li>
         <li>✅ Transparent pricing and tailored solutions</li>
         <li>✅ 100% client satisfaction rate</li>
-      </ul>
+      </ul> */}
       <blockquote className="bg-gray-100 p-6 rounded shadow mt-10">
         <p className="text-lg italic text-gray-800">"Cryptonova helped us uncover critical vulnerabilities before launch. Their team is sharp, responsive, and truly cares about our security."</p>
-        <footer className="mt-4 text-gray-600">— CTO Yadav Jee</footer>
+        <footer className="mt-4 text-gray-600">———————</footer>
       </blockquote>
       <div className="mt-12 text-center">
         <h2 className="text-2xl font-bold text-gray-600 mb-4">Let’s build a safer digital world together.</h2>
