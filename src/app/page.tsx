@@ -48,7 +48,7 @@ export default function Home() {
       </ul> */}
       <blockquote className="bg-gray-100 p-6 rounded shadow mt-10">
         <p className="text-lg italic text-gray-800">"Cryptonova helped us uncover critical vulnerabilities before launch. Their team is sharp, responsive, and truly cares about our security."</p>
-        <footer className="mt-4 text-gray-600">———————</footer>
+        <footer className="mt-4 text-gray-600">...</footer>
       </blockquote>
       <div className="mt-12 text-center">
         <h2 className="text-2xl font-bold text-gray-600 mb-4">Let’s build a safer digital world together.</h2>
