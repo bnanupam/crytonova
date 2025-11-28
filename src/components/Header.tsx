@@ -2,6 +2,8 @@
 import Link from "next/link";
 import MobileDrawer from "./MobileDrawer";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
+import logo from '../../public/CryptoNovaLogo.png';
 
 export default function Header() {
   const pathname = usePathname();
@@ -25,7 +27,10 @@ if (pathname !== "/") {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">
        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <h1 className="text-xl font-bold text-gray-800">Cryptonova</h1>
+        <div className="flex items-center space-x-3">
+        <Image src={logo} alt="Cryptonova Logo" width={50} height={50} />
+        <h1 className="text-xl font-bold text-gray-800">CryptoNova</h1>
+        </div>
         <nav className="hidden sm:flex space-x-6">
             {navLinks.map(({ href, label }) => (
      <Link key={href} href={href} className={linkClass(href)}>
